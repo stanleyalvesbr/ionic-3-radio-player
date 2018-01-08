@@ -191,7 +191,7 @@ var HomePage = (function () {
     };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-home',template:/*ion-inline-start:"/home/daniwidodo/Desktop/ionic/ion3-radio-dev/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar color="dark">\n    <ion-title>\n      Radio Player\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding="false" class="homebg">\n  <ion-grid>\n    <ion-row>\n      <div class="radio-logo"> \n        <span class="radio-logo1">RADIO cristy</span>\n      </div>\n    </ion-row>\n    <ion-row>\n      <span class="radio-logo2">828 am - Makassar</span>\n    </ion-row>>\n    <ion-row>\n        <ion-col>\n          <button ion-button block outline color="default" (click)="play()">Play</button>\n        </ion-col>\n\n        <ion-col>\n          <button ion-button block outline color="danger" (click)="pause()">Pause</button>\n        </ion-col>      \n    </ion-row>\n    <ion-row>\n\n    </ion-row>\n\n  </ion-grid> \n  <ion-fab right bottom>\n      <button ion-fab color="secondary"><ion-icon name="apps"></ion-icon></button>\n      <ion-fab-list side="left">\n        <button ion-fab><ion-icon name="logo-facebook"></ion-icon></button>\n        <button ion-fab><ion-icon name="logo-twitter"></ion-icon></button>\n        <button ion-fab><ion-icon name="logo-vimeo"></ion-icon></button>\n        <button ion-fab><ion-icon name="logo-googleplus"></ion-icon></button>\n      </ion-fab-list>\n    </ion-fab>\n    <div style="padding-top: 5em; margin: 2em;"></div>\n</ion-content>\n'/*ion-inline-end:"/home/daniwidodo/Desktop/ionic/ion3-radio-dev/src/pages/home/home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"C:\Users\Arthur_YPRM\Desktop\ionic\ionic-3-radio-player\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar color="dark">\n\n    <ion-title>\n\n      Radio Player\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding="false" class="homebg">\n\n  <ion-grid>\n\n    <ion-row>\n\n      <div class="radio-logo"> \n\n        <span class="radio-logo1">RADIO cristy</span>\n\n      </div>\n\n    </ion-row>\n\n    <ion-row>\n\n      <span class="radio-logo2">828 am - makassar</span>\n\n    </ion-row>>\n\n    <ion-row>\n\n        <ion-col>\n\n          <button ion-button block outline color="default" (click)="play()">Play</button>\n\n        </ion-col>\n\n\n\n        <ion-col>\n\n          <button ion-button block outline color="danger" (click)="pause()">Pause</button>\n\n        </ion-col>    \n\n    </ion-row>\n\n    <ion-row>\n\n\n\n    </ion-row>\n\n\n\n  </ion-grid> \n\n  <ion-fab right bottom style="margin-bottom: 4em; margin-right: 1em;">\n\n      <button ion-fab color="secondary"><ion-icon name="apps"></ion-icon></button>\n\n      <ion-fab-list side="left">\n\n        <button ion-fab><ion-icon name="logo-facebook"></ion-icon></button>\n\n        <button ion-fab><ion-icon name="logo-twitter"></ion-icon></button>\n\n        <button ion-fab><ion-icon name="logo-vimeo"></ion-icon></button>\n\n        <button ion-fab><ion-icon name="logo-googleplus"></ion-icon></button>\n\n      </ion-fab-list>\n\n    </ion-fab>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Arthur_YPRM\Desktop\ionic\ionic-3-radio-player\src\pages\home\home.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_2__providers_stream_url_stream_url__["a" /* StreamUrlProvider */],
@@ -223,7 +223,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 var StreamUrlProvider = (function () {
     function StreamUrlProvider() {
-        this.url = "http://akalmultimedia.net:8000/GDNSLDH";
+        this.url = "http://188.166.234.48:8000/radiocristy";
         this.stream = new Audio(this.url);
     }
     ;
@@ -401,7 +401,7 @@ var MyApp = (function () {
         });
     }
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({template:/*ion-inline-start:"/home/daniwidodo/Desktop/ionic/ion3-radio-dev/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/home/daniwidodo/Desktop/ionic/ion3-radio-dev/src/app/app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({template:/*ion-inline-start:"C:\Users\Arthur_YPRM\Desktop\ionic\ionic-3-radio-player\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n\n'/*ion-inline-end:"C:\Users\Arthur_YPRM\Desktop\ionic\ionic-3-radio-player\src\app\app.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);

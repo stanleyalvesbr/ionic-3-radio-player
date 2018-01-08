@@ -8,7 +8,7 @@ export class StreamUrlProvider {
     promise:any;
 
   constructor() {
-    this.url = "http://akalmultimedia.net:8000/GDNSLDH";
+    this.url = "http://188.166.234.48:8000/radiocristy";
    this.stream = new Audio(this.url);
   };
 
