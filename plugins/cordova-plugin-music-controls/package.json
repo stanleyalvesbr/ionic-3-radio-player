@@ -1,0 +1,69 @@
+{
+  "_from": "cordova-plugin-music-controls",
+  "_id": "cordova-plugin-music-controls@2.1.4",
+  "_inBundle": false,
+  "_integrity": "sha512-fmxUVJuNXkjkHpLq7spSiy0hS5Z9Wqbqprwl9JhLlNXLU5nrVUxXhcamPLfZeOkrycZxAF69TCWq9MhxhUyQDQ==",
+  "_location": "/cordova-plugin-music-controls",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-music-controls",
+    "name": "cordova-plugin-music-controls",
+    "escapedName": "cordova-plugin-music-controls",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-music-controls/-/cordova-plugin-music-controls-2.1.4.tgz",
+  "_shasum": "a474a381b9ac029980a8e1c495c4bf57407eb228",
+  "_spec": "cordova-plugin-music-controls",
+  "_where": "/home/daniwidodo/Desktop/ionic/ion3-radio-dev",
+  "author": {
+    "name": "homerours"
+  },
+  "bugs": {
+    "url": "https://github.com/homerours/cordova-music-controls-plugin/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-music-controls",
+    "platforms": [
+      "android",
+      "windows",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Music controls for Cordova apps",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.4.0"
+    }
+  ],
+  "homepage": "https://github.com/homerours/cordova-music-controls-plugin#readme",
+  "keywords": [
+    "cordova",
+    "music",
+    "controller",
+    "controls",
+    "media",
+    "plugin",
+    "notification",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-windows"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-music-controls",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/homerours/cordova-music-controls-plugin.git"
+  },
+  "version": "2.1.4"
+}
