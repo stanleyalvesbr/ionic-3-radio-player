@@ -14,3 +14,18 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+// @font-face { font-family: YourFont; src: url("…/assets/YourFont.ttf"); }
+
+
+@font-face {
+    font-family: 'leixo';
+    font-weight: 300;
+    font-style: normal;
+    src: url('../assets/fonts/leixo/leixo-demo-webfont.ttf');
+    src: url('../assets/fonts/leixo/leixo-demo-webfont.ttf?#iefix') format('truetype'),
+    local('leixo'),
+    url('../assets/fonts/leixo/leixo-demo-webfont.woff2') format('woff2'),
+    url('../assets/fonts/leixo/leixo-demo-webfont') format('woff'),
+    url('../assets/fonts/leixo/leixo-demo-webfont') format('truetype'),
+}

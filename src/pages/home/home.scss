@@ -1,3 +1,96 @@
 page-home {
+    .font-test {
+        font-family: 'leixo' !important;
+    }
 
+    .homebg {
+        background-image: url('../assets/imgs/radioBg.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .radio-logo {
+        font-family: 'leixo' !important;
+        text-align: center;
+        color: antiquewhite;
+        text-align: center;
+        font-weight: bold;
+
+        margin: auto;
+        padding-top: 6em;
+        
+    }
+    .radio-logo1 {
+        font-size: 4em;
+        font-weight: 300;
+        -webkit-animation:colorchange 20s infinite alternate;
+    }
+    .radio-logo2 {
+        font-family: 'leixo' !important;
+        font-size: 1em;
+        font-weight: 100;
+        color: antiquewhite;
+        text-align: center;
+        font-weight: bold;
+        margin: auto;
+        padding-bottom: 6em;
+    }
+
+    @-webkit-keyframes colorchange {
+        0% {
+        
+            color: blue;
+          }
+          
+          10% {
+            
+            color: #8e44ad;
+          }
+          
+          20% {
+            
+            color: #1abc9c;
+          }
+          
+          30% {
+            
+            color: #d35400;
+          }
+          
+          40% {
+            
+            color: blue;
+          }
+          
+          50% {
+            
+            color: #34495e;
+          }
+          
+          60% {
+            
+            color: blue;
+          }
+          
+          70% {
+            
+            color: #2980b9;
+          }
+          80% {
+         
+            color: #f1c40f;
+          }
+          
+          90% {
+         
+            color: #2980b9;
+          }
+          
+          100% {
+            
+            color: pink;
+          }
+    }
+
+   
 }

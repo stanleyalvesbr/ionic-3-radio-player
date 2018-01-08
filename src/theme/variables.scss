@@ -86,3 +86,14 @@ $colors: (
 
 @import "roboto";
 @import "noto-sans";
+@font-face {
+  font-family: 'leixo';
+  font-weight: 300;
+  font-style: normal;
+  src: url('../assets/fonts/leixo/leixo-demo-webfont.ttf');
+  src: url('../assets/fonts/leixo/leixo-demo-webfont.ttf?#iefix') format('truetype'),
+  local('leixo'),
+  url('../assets/fonts/leixo/leixo-demo-webfont.woff2') format('woff2'),
+  url('../assets/fonts/leixo/leixo-demo-webfont') format('woff'),
+  url('../assets/fonts/leixo/leixo-demo-webfont') format('truetype'),
+}

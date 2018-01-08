@@ -1,14 +1,43 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="dark">
     <ion-title>
-      Ionic Blank
+      Radio Player
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content padding="false" class="homebg">
+  <ion-grid>
+    <ion-row>
+      <div class="radio-logo"> 
+        <span class="radio-logo1">RADIO cristy</span>
+      </div>
+    </ion-row>
+    <ion-row>
+      <span class="radio-logo2">828 am - Makassar</span>
+    </ion-row>>
+    <ion-row>
+        <ion-col>
+          <button ion-button block outline color="default" (click)="play()">Play</button>
+        </ion-col>
+
+        <ion-col>
+          <button ion-button block outline color="danger" (click)="pause()">Pause</button>
+        </ion-col>      
+    </ion-row>
+    <ion-row>
+
+    </ion-row>
+
+  </ion-grid> 
+  <ion-fab right bottom>
+      <button ion-fab color="secondary"><ion-icon name="apps"></ion-icon></button>
+      <ion-fab-list side="left">
+        <button ion-fab><ion-icon name="logo-facebook"></ion-icon></button>
+        <button ion-fab><ion-icon name="logo-twitter"></ion-icon></button>
+        <button ion-fab><ion-icon name="logo-vimeo"></ion-icon></button>
+        <button ion-fab><ion-icon name="logo-googleplus"></ion-icon></button>
+      </ion-fab-list>
+    </ion-fab>
+    <div style="padding-top: 5em; margin: 2em;"></div>
 </ion-content>
